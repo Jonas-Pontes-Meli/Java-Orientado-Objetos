@@ -1,7 +1,10 @@
 package OrientadoObjetos;
 
+import Http.ClientHttp;
 import com.sun.source.tree.WhileLoopTree;
 
+import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -55,6 +58,8 @@ public class Programa {
         produto.peso = peso;
         produto.volume = volume;
         pg.listProdutos.add(produto);
+
     }
+
 
 }
